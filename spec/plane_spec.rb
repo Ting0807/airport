@@ -1,21 +1,13 @@
 require 'plane'
 
 describe Plane do 
-	it' is in an airport' do
-	end
+	plane=Plane.new
+	
 
-	it'take off from an airport' do
-	end
+	it'has a crew of 5'do
+   expect(plane.crew_numbers).to eq 5
 
-
-	it' not in an airport after take off' do
-	end 
-
-	it' land on an airport' do
-	end 
-
-	it ' is in an airport after landing' do
-	end 
+end
 
 
 end

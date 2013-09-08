@@ -5,7 +5,7 @@ describe 'Weather'  do
 
 	it 'knows weather could be sunny or stormy ' do
 
-     expect(weather.tell_the_weather).to eq 'sunny' or 'stormy'
+     expect(weather.tell_the_weather).to eq ('sunny' || 'stormy')
  end 
 
 	
